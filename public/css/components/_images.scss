@@ -1,19 +1,16 @@
 div.full-image {
-	width: 100%;
 	height: 48em;
 	div {
-		position: absolute;
+		position: relative;
 	    top: 50%;
 	    display: block;
 	    text-align: center;
   		h1, h2 {
-  			margin: 0 auto;
-  		 	width: 30em;
   		}
 	}
 }
 
-.full-image.camden {
+.container-fluid.camden {
 	background-color: $camden-blue;
 	// background: url(../../img/landscapes/salina.jpg) no-repeat center;
 	// background-size: cover;
@@ -23,17 +20,52 @@ div.full-image {
 	background-color: grey;
 }
 
-.img-container {
+.container.text {
+	padding: 5em 0;
+}
+// .img-container {
+// 	img {
+// 		width: 60%;
+// 		margin: 0 20%;
+// 	}
+// }
+
+.container.img {
+	padding: 5em 0;
+}
+
+.container.logo {
+	padding: 6em 0;
+	h1 {
+		margin-bottom: 2em;
+	}
+	.logo {
+		height: 6em;
+	}
 	img {
-		width: 70%;
-		margin: 0 15%;
+		padding: 0 1em;
 	}
 }
 
-.logo-container {
-	img {
-		margin: 0 auto;
-		padding: 4%;
-		width: 11%;
+.container.team {
+	padding: 6em 0;
+	.member {
+		text-align: center;
+		div {
+			display: inline-block;
+		}
 	}
+	img {
+		width: 7em;
+ 		height: 7em;
+ 		border-radius: 50%;
+	}
+	p {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.testimonial {
+	padding: 5em 0;
 }
