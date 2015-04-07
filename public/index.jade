@@ -1,1 +1,4 @@
-div(class="full-image")
+ul
+    each study, slug in public.studies._data
+        li
+            a(href="/studies/#{ slug }") #{ study.title}

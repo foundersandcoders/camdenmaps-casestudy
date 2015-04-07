@@ -1,10 +1,39 @@
 div.full-image {
 	width: 100%;
-	height: 50em;
-	background-color: grey;
+	height: 48em;
 	div {
 		position: absolute;
-	    top: 30em;
+	    top: 50%;
 	    display: block;
+	    text-align: center;
+  		h1, h2 {
+  			margin: 0 auto;
+  		 	width: 30em;
+  		}
+	}
+}
+
+.full-image.camden {
+	background-color: $camden-blue;
+	// background: url(../../img/landscapes/salina.jpg) no-repeat center;
+	// background-size: cover;
+}
+
+.full-image.basic {
+	background-color: grey;
+}
+
+.img-container {
+	img {
+		width: 70%;
+		margin: 0 15%;
+	}
+}
+
+.logo-container {
+	img {
+		margin: 0 auto;
+		padding: 4%;
+		width: 11%;
 	}
 }
