@@ -1,0 +1,13 @@
+@import url(../../fonts/lux.otf);
+
+$primary-font:'Lux', sans-serif;
+
+@mixin title ($size) {
+	font-family: $primary-font;
+	font-size: $size;
+	letter-spacing: 0.05em;
+	font-weight: 200;
+	padding: 0.4em 0;
+	line-height: 1.2em;
+	text-align: center;
+}
