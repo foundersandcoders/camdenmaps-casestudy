@@ -5,15 +5,16 @@ div.full-image {
 	    top: 50%;
 	    display: block;
 	    text-align: center;
-  		h1, h2 {
-  		}
+	    img {
+	    	padding: 0 3em 1em;
+	    }
 	}
 }
 
 .container-fluid.camden {
 	background-color: $camden-blue;
-	// background: url(../../img/landscapes/salina.jpg) no-repeat center;
-	// background-size: cover;
+	background: url(../../img/camdenmaps/map-blue.png) no-repeat center;
+	background-size: cover;
 }
 
 .full-image.basic {
@@ -23,12 +24,6 @@ div.full-image {
 .container.text {
 	padding: 5em 0;
 }
-// .img-container {
-// 	img {
-// 		width: 60%;
-// 		margin: 0 20%;
-// 	}
-// }
 
 .container.img {
 	padding: 5em 0;
@@ -47,25 +42,38 @@ div.full-image {
 	}
 }
 
-.container.team {
-	padding: 6em 0;
-	.member {
-		text-align: center;
-		div {
-			display: inline-block;
-		}
+.container-fluid.team {
+	padding: 0.5em 0 2em;
+	div {
+		float: left;
+		padding: 1em 0 0 1em;
 	}
 	img {
-		width: 7em;
- 		height: 7em;
- 		border-radius: 50%;
+		width: 6em;
+		height: 6em;
+		border-radius: 50%;
+		display: inline-block;
+		float: left;
+		border: 0.3em #98B3C2 solid;
 	}
-	p {
+	h1 {
+		color: $grey;
+	}
+	p, h4 {
 		margin: 0;
 		padding: 0;
 	}
+	p {
+		font-weight: 200;
+		color: $grey;
+	}
+	h4 {
+		color: $dark-grey;
+	}
 }
-
+.team div.team-description {
+	padding: 6em 5em;
+}
 .testimonial {
 	padding: 5em 0;
 }
