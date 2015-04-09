@@ -1,7 +1,8 @@
 {
   	"globals": {
     	"title": "Founders & Coders' Case Studies",
+    	"baseUrl": "dossier",
     	"description"  : "",
-    	"uri": "http://example.com"
+    	"uri": "http://nataliabaltazar.cme/"
   	}
 }

@@ -14,7 +14,7 @@ footer {
 }
 
 .contact {
-	background: url(../../img/old-mile-end-dark.jpeg) no-repeat center center fixed; 
+	background: url( #{ baseUrl }/img/old-mile-end-dark.jpeg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
