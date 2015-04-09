@@ -15,9 +15,11 @@ nav.navbar {
     padding-left: 10em;
     border: none;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-    height: 4.5em;
     p {
         color: $primary-grey;
+    }
+    @include respond(tablet) {
+         padding-left: 0;
     }
     @include respond(mobile) {
          padding-left: 0;
@@ -49,7 +51,6 @@ ul.nav.navbar-nav {
     li{
         padding-right: 3%;
         list-style-type: none;
-        margin-top: -10px; 
         a{
             display: block;
             text-decoration: none;      
@@ -63,9 +64,11 @@ ul.nav.navbar-nav {
 
 
 #fac-navbar {
-    background-color: $primary-grey;
     color: white;
     position: relative;
     top: -0.6em;
     border: none;
+    @include respond (mobile) {
+        background-color: $primary-grey;
+    }
 }
