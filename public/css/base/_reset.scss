@@ -11,6 +11,10 @@ h2 {
 	@include title (1.5em);
 }
 
+h4 {
+	@include title (1.25em);
+}
+
 p {
 	font-size: 1.1em;
 	letter-spacing: 0.05em;
