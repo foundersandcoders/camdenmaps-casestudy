@@ -1,0 +1,74 @@
+div.logo-wrapper {
+    padding-left: 5%;
+    padding-top: 0.5em;
+    float: left;
+    #logo {
+        margin-top: -10px;
+        margin-bottom: 0;
+        margin-left: 0;
+        @include logo (2em);
+    }
+} 
+
+nav.navbar {
+    background-color: $primary-grey;
+    padding-left: 10em;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    p {
+        color: $primary-grey;
+    }
+    @include respond(tablet) {
+         padding-left: 0;
+    }
+    @include respond(mobile) {
+         padding-left: 0;
+    }
+}
+
+.navbar-default button.navbar-toggle {
+    border: none;
+    &:focus {
+        border: none;
+        background-color: $primary-grey;
+    }
+    &:hover {
+        background-color: $primary-grey;
+    }
+    span.icon-bar {
+        background-color: white;
+        width: 2em;
+        height: 0.3em;
+    }
+}
+
+ul.nav.navbar-nav {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-right: 5%;
+    font-size: 16px;
+    li{
+        padding-right: 3%;
+        list-style-type: none;
+        a{
+            display: block;
+            text-decoration: none;      
+            color: white;
+            &:hover {
+                color: $primary-blue;
+            }
+        }
+    }
+}
+
+
+#fac-navbar {
+    color: white;
+    position: relative;
+    top: -0.6em;
+    border: none;
+    @include respond (mobile) {
+        background-color: $primary-grey;
+    }
+}

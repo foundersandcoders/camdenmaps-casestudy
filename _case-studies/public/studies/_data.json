@@ -1,0 +1,12 @@
+{
+  "basic": {
+    "layout": "_template-layout.jade",
+    "title": "Basic Template",
+    "tagline": "please make up a tagline to put here"
+  },
+  "camdenmaps": {
+    "layout": "_camdenmaps-layout",
+    "title": "Camden Council: Where's my Nearest",
+    "tagline": "A mapping service for finding local amenities within the London Borough of Camden."
+  }
+}
