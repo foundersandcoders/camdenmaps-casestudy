@@ -11,9 +11,13 @@ h2 {
 	@include title (1.5em);
 }
 
-h4 {
+h3 {
 	font-weight: 200;
   	font-size: 1.4em;
+}
+
+h4 {
+	@include title (1.25em);
 }
 
 p {
