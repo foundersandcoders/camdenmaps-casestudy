@@ -43,10 +43,10 @@ div.full-image {
 }
 
 .container-fluid.team {
-	padding: 0.5em 0 2em;
+	padding: 0 15px 2.7em;
 	div {
 		float: left;
-		padding: 1em 0 0 1em;
+		padding-top: 1em;
 	}
 	img {
 		width: 6em;
@@ -55,6 +55,7 @@ div.full-image {
 		display: inline-block;
 		float: left;
 		border: 0.3em #98B3C2 solid;
+		margin-right: 1em;
 	}
 	h1 {
 		color: $grey;
