@@ -1,0 +1,20 @@
+/***********************************************
+*   MAIN SCSS FILE
+*   Description: Include all stylesheets here
+	for mapping to css
+************************************************/
+
+@import 		
+		"base/colours",
+		"base/typography",
+		"base/reset",
+
+		"helpers/mixins",
+		"helpers/responsive",
+		
+		"layouts/footer",
+		"layouts/header",
+
+		"components/buttons",
+		"components/images"
+;

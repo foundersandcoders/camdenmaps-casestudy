@@ -1,0 +1,80 @@
+div.full-image {
+	height: 48em;
+	div {
+		position: relative;
+	    top: 50%;
+	    display: block;
+	    text-align: center;
+	    img {
+	    	padding: 0 3em 1em;
+	    }
+	}
+}
+
+.container-fluid.camden {
+	background-color: $camden-blue;
+	background: url(../img/camdenmaps/map-blue.png) no-repeat center;
+	background-size: cover;
+}
+
+.full-image.basic {
+	background-color: grey;
+}
+
+.container.text {
+	padding: 2em 0;
+}
+
+.container.img {
+	padding: 3em 0;
+}
+
+.container.logo {
+	padding: 5em 0;
+	p {
+		margin-bottom: 2em;
+	}
+	.logo {
+		height: 6em;
+	}
+	img {
+		padding: 0 1em;
+	}
+}
+
+.container-fluid.team {
+	padding: 0 15px 2.7em;
+	div {
+		float: left;
+		padding-top: 1em;
+	}
+	img {
+		width: 6em;
+		height: 6em;
+		border-radius: 50%;
+		display: inline-block;
+		float: left;
+		border: 0.3em #98B3C2 solid;
+		margin-right: 1em;
+	}
+	h1 {
+		color: $grey;
+	}
+	p, h4 {
+		margin: 0;
+		padding: 0;
+	}
+	p {
+		font-weight: 200;
+		color: $grey;
+	}
+	h4 {
+		color: $dark-grey;
+	}
+}
+.team div.team-description {
+	padding: 6em 5em;
+}
+.testimonial {
+	padding: 5em 0;
+}
