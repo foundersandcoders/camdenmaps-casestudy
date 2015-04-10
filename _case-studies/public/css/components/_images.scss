@@ -34,20 +34,19 @@ div.full-image {
 	p {
 		margin-bottom: 2em;
 	}
-	.logo {
-		height: 6em;
-	}
-	img.tool-logo {
-		-webkit-filter: grayscale(100%);
-		filter: grayscale(100%);
-		filter: $grey;
-	}
-	img.tool-logo:hover {
-		-webkit-filter: grayscale(0%);
-		filter:none;
-	}
+}
+
+.tool-logo {
+	height: 6em;
 	img {
 		padding: 0 1em;
+		-webkit-filter: grayscale(75%);
+		filter: grayscale(75%);
+		filter: $grey;
+		&:hover {
+			-webkit-filter: grayscale(25%);
+			filter:none;
+		}
 	}
 }
 
@@ -65,6 +64,13 @@ div.full-image {
 		float: left;
 		border: 0.3em #98B3C2 solid;
 		margin-right: 1em;
+		-webkit-filter: grayscale(30%);
+		filter: grayscale(30%);
+		filter: $grey;
+		&:hover {
+			-webkit-filter: grayscale(0%);
+			filter:none;
+		}
 	}
 	h1 {
 		color: $grey;
