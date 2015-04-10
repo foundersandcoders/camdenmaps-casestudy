@@ -42,6 +42,10 @@ div.full-image {
 		filter: grayscale(100%);
 		filter: $grey;
 	}
+	img.tool-logo:hover {
+		-webkit-filter: grayscale(0%);
+		filter:none;
+	}
 	img {
 		padding: 0 1em;
 	}
