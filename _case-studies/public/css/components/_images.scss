@@ -37,6 +37,15 @@ div.full-image {
 	.logo {
 		height: 6em;
 	}
+	img.tool-logo {
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		filter: $grey;
+	}
+	img.tool-logo:hover {
+		-webkit-filter: grayscale(0%);
+		filter:none;
+	}
 	img {
 		padding: 0 1em;
 	}
